@@ -2,7 +2,7 @@
 
 An offline Python lab that turns normalized authentication logs into explainable alerts. Built as a starter portfolio project for learning detection engineering: define a hypothesis, implement it, test its boundaries, and document how an analyst should investigate it.
 
-**Scope:** synthetic data, two transparent rules, no external services or dependencies. This is an AI-assisted educational implementation, not evidence of production deployment, incident response experience, or measured real-world detection accuracy.
+**Scope:** synthetic data, two transparent rules, no external services or dependencies. This is an educational implementation using simulated activity. It has not been evaluated as a production detection system.
 
 ## Run in two minutes
 
@@ -56,7 +56,7 @@ Password typos, stale service credentials, and shared networks can trigger these
 
 ## Development and provenance
 
-Created with AI assistance for Tabassom Azmi's starter portfolio. Code and documentation were generated and locally exercised as part of setup. Personal understanding, independent implementation, production use, and prior accomplishments are not implied. Future changes should record a hypothesis and include a test that distinguishes correct behavior from a plausible bug.
+The code is accompanied by synthetic fixtures and reproducible tests. Future changes should record a hypothesis and include a test that distinguishes correct behavior from a plausible bug.
 
 Planned extensions: distinct-user password-spray detection; a real log normalization adapter using sanitized samples; richer analyst context; then a separate AI security lab evaluating untrusted-input handling. These are plans, not completed features.
 
