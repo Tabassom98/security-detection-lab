@@ -1,0 +1,2 @@
+{"evidence_ids": ["demo-01", "demo-02", "demo-03", "demo-04", "demo-05"], "failure_count": 5, "observed_at": "2026-01-01T00:04:00+00:00", "rule_id": "AUTH-001", "severity": "medium", "src_ip": "192.0.2.10", "user": "demo-user"}
+{"evidence_ids": ["demo-01", "demo-02", "demo-03", "demo-04", "demo-05", "demo-06"], "failure_count": 5, "observed_at": "2026-01-01T00:04:30+00:00", "rule_id": "AUTH-002", "severity": "high", "src_ip": "192.0.2.10", "user": "demo-user"}
